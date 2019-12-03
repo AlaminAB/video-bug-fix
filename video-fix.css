@@ -4,11 +4,10 @@
 }
 .background-wrap video{
     display: block;
-  object-fit:cover;   
-  overflow:hidden;
-  width:100%;
-  min-height: 200px;
-  max-height: 100vh;
+    object-fit:cover;
+    overflow:hidden;
+    width:100%;
+    min-height: 200px;
 }
 /* background-wrap {
      position: absolute;
