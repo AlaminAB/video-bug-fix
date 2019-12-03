@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1200px) {
+    
+        .h.hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+     
+    }
+   
+   
+     .row { padding: 0 2% }
+        
+
+
+
+    }    
+@media only screen and (max-width: 1023px) {
+    
+    
+  
+.hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+      
+    }
+    
+    .row { padding: 0 2% }
+    
+
+ 
+
+
+
+@media only screen and (max-width: 767px) {
+      
+  .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+        
+    }
+    
+    .row { padding: 0 2% }
+    
+   .box2 {
+        
+ 
+        box-sizing: border-box;
+        width: 80%;
+       margin-left: 10%;   
+    }
+ 
+    .icon-big {
+        
+        text-align: center;
+    }
+
+  
+
+    
+    
+@media only screen and (max-width: 480px) {
+  
+    
+ .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+      
+    }
+    
+    .row { padding: 0 2% }
+
+   
+
+    
+ 
+    
