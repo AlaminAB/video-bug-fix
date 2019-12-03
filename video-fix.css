@@ -4,11 +4,11 @@
 }
 .background-wrap video{
     display: block;
-    position: relative;
-  object-fit:cover;  /* This is the mainly problematic line*/
+  object-fit:cover;   
   overflow:hidden;
   width:100%;
   min-height: 200px;
+  max-height: 100vh;
 }
 /* background-wrap {
      position: absolute;

@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="Grid.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -71,8 +72,9 @@
                 <!--     <video  autoplay="true" loop="loop" muted="muted">
     <source src="">    
     </video> -->
-                <video loop autoplay muted="muted" id="vid" preload="auto" width='100%' height='100%' src='http://amazon-accounts.co/ocean.mp4' type='video/mp4'>
-
+                <video loop autoplay playsinline  muted="muted" id="vid" preload="auto" width='100%' height='100%'  src="http://amazon-accounts.co/ocean.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'  >
+               
+your browswr not support html 5 video
                 </video>
             </div>
         </div>
@@ -355,6 +357,9 @@ Aged accounts = Double protection</p>
     </footer>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+    document.getElementById('vid').play();
+</script>
 </body>
 
 </html>
